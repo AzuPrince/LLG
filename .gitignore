@@ -1,0 +1,70 @@
+# Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# uv files
+
+uv.lock
+
+# Environment variables
+
+.env
+.env.*
+!.env.example
+
+# Distribution / packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+
+*.log
+
+# VS Code
+
+.vscode/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Mac / Windows system files
+
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# mypy
+
+.mypy_cache/
+
+# Pyre
+
+.pyre/
+
+# Ruff
+
+.ruff_cache/
+
+# Temporary files
+
+*.tmp
+*.temp
